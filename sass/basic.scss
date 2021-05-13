@@ -1,0 +1,65 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 20px;
+  background-color: blanchedalmond;
+}
+
+div {
+  color: rgb(83, 78, 78);
+  padding: 20px;
+}
+
+a {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#box1 {
+  font-size: 40px;
+  background-color: pink;
+
+  box-shadow: 0 3px 11px 0px rgba(0, 0, 0, 0.75);
+
+  & > a {
+    color: rgb(103, 14, 14);
+    text-decoration: none;
+    &:hover {
+      color: rgb(88, 72, 72);
+      text-decoration: underline;
+    }
+  }
+
+  &:hover {
+    background-color: blanchedalmond;
+  }
+  //box1-title
+  &-title {
+    font-style: italic;
+    text-decoration: underline;
+  }
+  &,
+  &-title {
+    border-radius: 20px;
+    border: 3px solid red;
+  }
+}
+
+#box1 #box2 {
+  font-size: 20px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  border: 3px solid red;
+  box-shadow: 0 3px 11px 0px rgba(0, 0, 0, 0.75);
+  & > a {
+    color: coral;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(88, 72, 72);
+      text-decoration: underline;
+    }
+  }
+}
