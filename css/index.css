@@ -1,29 +1,15 @@
-body {
-  background-color: orange;
-}
-
 #box1 {
-  background-color: green;
-  width: 100px;
+  color: white;
+  background-color: black;
 }
 
 #box2 {
-  background-color: green;
-  width: 200px;
+  color: black;
+  background-color: white;
 }
 
 #box3 {
-  background-color: green;
-  width: 300px;
-}
-
-#box4 {
-  background-color: green;
-  width: 400px;
-}
-
-#box5 {
-  background-color: green;
-  width: 500px;
+  color: red;
+  background-color: blue;
 }
 /*# sourceMappingURL=index.css.map */
