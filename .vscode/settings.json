@@ -1,21 +1,21 @@
 {
-  "editor.wordWrapColumn": 120,
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontSize": 14,
-  "liveSassCompile.settings.formats":[
-      {
-          "format": "expanded",
-          "extensionName": ".css",
-          "savePath": "/css"
-      }
-  ],
-  "liveSassCompile.settings.excludeList": [
-      "**/node_modules/**",
-      ".vscode/**"
-  ],
-  "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.autoprefix": [
-      "> 1%",
-      "last 2 versions"
-  ]
+"editor.wordWrapColumn": 120,
+"editor.find.addExtraSpaceOnTop": false,
+"editor.fontSize": 14,
+"liveSassCompile.settings.formats":[
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "~/../css"
+    }
+],
+"liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+],
+"liveSassCompile.settings.generateMap": true,
+"liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+]
 }
